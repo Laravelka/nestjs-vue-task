@@ -5,7 +5,7 @@ import { readFileSync } from 'fs';
 @Injectable()
 export class NotifySettingsService {
 	get(): NotifySettings {
-		const json = readFileSync(`${__dirname}/../data/notify-settings.json`, 'utf8');
+		const json = readFileSync(`${__dirname}/../../files/notify-settings.json`, 'utf8');
 
 		return JSON.parse(json);
 	}
