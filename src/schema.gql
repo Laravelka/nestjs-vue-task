@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type NotifySettingsItem {
+  id: ID!
+  label: String!
+  isChecked: Boolean!
+  isDisabled: Boolean!
+}
+
+type NotifySettings {
+  settings: [NotifySettingsItem!]!
+}
+
+type Query {
+  getNotifySettings: NotifySettings!
+}

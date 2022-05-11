@@ -1,0 +1,28 @@
+{
+	"settings": [
+		{
+			"id": 1,
+			"label": "Changes made to your account",
+			"isChecked": true,
+			"isDisabled": false
+		},
+		{
+			"id": 2,
+			"label": "Information on new products and services",
+			"isChecked": true,
+			"isDisabled": false
+		},
+		{
+			"id": 3,
+			"label": "Marketing and promo offers",
+			"isChecked": false,
+			"isDisabled": false
+		},
+		{
+			"id": 4,
+			"label": "Security alerts",
+			"isChecked": true,
+			"isDisabled": true
+		}
+	]
+}
